@@ -1,0 +1,19 @@
+[build]
+  publish = "static"
+  command = "export ELM_HOME=\"elm-stuff\" && ./scripts/build.sh"
+  
+
+[[plugins]]
+package = "netlify-plugin-cache"
+  [plugins.inputs]
+  paths = ["elm-stuff"]
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    Content-Security-Policy = "default-src 'none'; connect-src 'self'; font-src https://fonts.gstatic.com; img-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'unsafe-inline' https://fonts.googleapis.com/;"
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains"
+    Referrer-Policy = "no-referrer"
+    X-Content-Type-Options = "nosniff"
