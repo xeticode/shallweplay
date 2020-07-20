@@ -6,7 +6,7 @@ We hope you find the article and project useful.
 
 ## Instructions
 
-We recommend you fork this project, create a branch off of master, and follow along with the article. This project is licensed under the MIT license.
+We recommend you fork this project, create a branch off of master, and follow along with the article.
 
 ## Image Attributions
 
@@ -17,3 +17,7 @@ We recommend you fork this project, create a branch off of master, and follow al
 | noun_Login_2185437.svg | <https://thenounproject.com/icon/2185437/> | <https://thenounproject.com/prosymbols/>        |
 | noun_Login_2185481.svg | <https://thenounproject.com/icon/2185481/> | <https://thenounproject.com/prosymbols/>        |
 | noun_x_2147847.svg     | <https://thenounproject.com/icon/2147847/> | <https://thenounproject.com/createdby_kayla/>   |
+
+## Licensing
+
+This project is copyright 2020, XetiCode LLC, and is licensed under the MIT license.
